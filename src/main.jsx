@@ -73,7 +73,9 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], {
+  basename: '/react-authentication'
+});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
